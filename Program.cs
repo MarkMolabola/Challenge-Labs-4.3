@@ -19,8 +19,8 @@ namespace Challenge_Labs_4._3
 
             for (int i = 0, j = input.Length - 1; i < j; i++, j--)
             {
-                char temp;
-                temp = word[i];
+                
+                char temp = word[i];
                 word[i] = word[j];
                 word[j] = temp;
 
@@ -29,17 +29,7 @@ namespace Challenge_Labs_4._3
         }
 
 
-            //Stack<char> mystring = new();
-            //foreach (char c in input)
-            //{
-            //    mystring.Push(c);
-            //}
-            //string reversed = "";
-            //while (mystring.Count > 0)
-            //{
-            //    reversed += mystring.Pop();
-            //}
-            //return reversed;
+            
         
     }
 }
